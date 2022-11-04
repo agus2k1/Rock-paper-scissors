@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="game-container">
+        <div class="title">
+            <span class="line-1">
+                <span>R</span>
+                <div class="rock">
+                    <img src="images/rock.png" alt="rock">
+                </div>
+                <span>CK</span>
+                <span class="space-left">P</span>
+                <div class="paper">
+                    <img src="images/paper.png" alt="paper">
+                </div>
+                <span>PER</span>
+            </span>
+            <span class="line-2">
+                <span>S</span>
+                <div class="scissor">
+                    <img src="images/scissors.png" alt="scissor">
+                </div>
+                <span>ISSORS</span>
+                <span class="space-left">LI</span>
+                <div class="lizard">
+                    <img src="images/lizard.png" alt="lizard">
+                </div>
+                <span>ARD</span>
+            </span>
+            <span class="line-3">
+                <span>SP</span>
+                <div class="spock">
+                    <img src="images/spock.png" alt="spock">
+                </div>
+                <span>CK</span>
+            </span>
+        </div>
+        <div class="subtitle" id="subtitle">
+            <span>LET THE GAME BEGIN!</span>
+            <span class="hide">WAITING FOR OPPONENT...</span>
+            <span class="hide">YOU WIN!</span>
+            <span class="hide">PLAY AGAIN?</span>
+        </div>
+        <div class="options">
+            <div class="icon hvr-float hide" id="rock"><img src="images/rock.png" alt="rock"></div>
+            <div class="icon hvr-float hide" id="paper"><img src="images/paper.png" alt="paper"></div>
+            <div class="icon hvr-float hide" id="scissors"><img src="images/scissors.png" alt="scissors"></div>
+            <div class="icon hvr-float hide" id="lizard"><img src="images/lizard.png" alt="lizard"></div>
+            <div class="icon hvr-float hide" id="Spock"><img src="images/spock.png" alt="spock"></div>
+            <span class="vs hide" id="vs">VS</span>
+            <div class="special-icon hide" id="computerIcon"></div>
+            <button class="hide hvr-fade" id="restartButton">RESTART</button>
+        </div>
+    </div>
+        <p class="pick-one-message" id="message">Make your selection</p>
+        <div class="player-points score">
+            <div class="hide">YOU</div>
+            <div class="number hide" id="playerScore"></div>
+        </div>
+        <div class="computer-points score">
+            <div class="hide">CPU</div>
+            <div class="number hide" id="computerScore"></div>
+        </div>
+</body>
+</html>
