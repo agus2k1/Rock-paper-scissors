@@ -67,7 +67,7 @@ function randomSelection(arr, index, interval) {
     timer = function() {
         interval += Math.floor(randomNum);
         computerIcon.classList.remove("hide");
-        computerIcon.innerHTML = `<img src="images/${arr[index].id}.png">`;
+        computerIcon.innerHTML = `<img src="images/${arr[index].id.toLowerCase()}.png">`;
         if (index == arr.length - 1){
             index = 0;
         } else {
