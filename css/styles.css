@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Bubbleboddy-Neue-Trial-Light';
-    src:url('../../fonts/bubblebody/Bubbleboddy-Neue-Trial-Light.ttf.woff') format('woff'),
-        url('../../fonts/bubblebody/Bubbleboddy-Neue-Trial-Light.ttf.svg#Bubbleboddy-Neue-Trial-Light') format('svg'),
-        url('../../fonts/bubblebody/Bubbleboddy-Neue-Trial-Light.ttf.eot'),
-        url('../../fonts/bubblebody/Bubbleboddy-Neue-Trial-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('../fonts/Bubbleboddy-Neue-Trial-Light.ttf.woff') format('woff'),
+        url('../fonts/Bubbleboddy-Neue-Trial-Light.ttf.svg#Bubbleboddy-Neue-Trial-Light') format('svg'),
+        url('../fonts/Bubbleboddy-Neue-Trial-Light.ttf.eot'),
+        url('../fonts/Bubbleboddy-Neue-Trial-Light.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
